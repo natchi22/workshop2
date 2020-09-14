@@ -101,6 +101,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 54px;
 }
 .company{
   display: flex;
@@ -173,13 +174,14 @@ right: 238px;
 @media screen and (max-width: 1279px ) and (min-width: 768px ){
 .percentage{
 bottom: 100px;
-right: 428px;
+/* right: 378px; */
+left: 24%;
 }
 }
 @media screen and (max-width: 767px){
 .percentage{
 bottom: 185px;
-right: 95px;
+right: 80px;
 }
 .chart60{
   display: flex;

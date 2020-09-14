@@ -27,4 +27,9 @@
 .ant-input:hover{
   border-color: #ffffff;
 }
+@media screen and (max-width: 767px){
+.ant-layout-header{
+  padding: 0 10px;
+}
+}
 </style>

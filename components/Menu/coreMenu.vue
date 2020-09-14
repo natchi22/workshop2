@@ -83,49 +83,6 @@
         </p>
       </div>
     </a-layout-sider>
-
-    <a-layout>
-      <!-- <a-layout-header class="header">
-        <a-input
-          placeholder="Global search"
-          style="border: none"
-        >
-          <a-icon
-            slot="prefix"
-            type="search"
-            style="color: #C2CFE0"
-          />
-          <img src="~assets/images/layout/notifications.png" alt="กระดิ่ง">
-        </a-input>
-      </a-layout-header> -->
-      <!-- <a-layout-content
-        class="content"
-        style="margin: 35px"
-      >
-        <div class="content">
-          <div
-            class="content-date"
-            :style="{ padding: '16px 24px 14px 24px',
-                      background: '#fff',
-                      minHeight: '718px' }"
-          >
-            <div>
-              contact
-            </div>
-          </div>
-          <div
-            :style="{ padding: '16px 24px 14px 24px',
-                      background: '#fff',
-                      minHeight: '718px' }"
-          >
-            <div style="width:445px">
-              1
-            </div>
-            <div>2</div>
-          </div>
-        </div>
-      </a-layout-content> -->
-    </a-layout>
   </a-layout>
 </template>
 <script>

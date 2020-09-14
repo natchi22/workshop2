@@ -30,7 +30,7 @@ export default {
         labels: ['1 Dec', '8 Dec', '16 Dec', '31 Dec'],
         datasets: [
           {
-            label: 'Closed deals', // Closed deals
+            label: '', // Closed deals
             borderColor: '#109CF1',
             backgroundColor: 'rgba(16, 156, 241, 0.2)',
             data: [60, 170, 140, 150],
@@ -38,13 +38,12 @@ export default {
             lineTension: '0.9'
           }
         ]
+      },
+      options: {
+        legend: {
+          display: false
+        }
       }
-    //   options: {
-    //     title: {
-    //       display: true,
-    //       text: 'Closed deals'
-    //     }
-    //   }
     }
   },
   methods: {
@@ -78,6 +77,7 @@ font-size: 15px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 54px;
 }
 .company{
   display: flex;

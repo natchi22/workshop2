@@ -69,7 +69,9 @@ export default {
 }
 .doughnut{
   width: 100%;
-
+}
+.chartjs-render-monitor {
+  margin: 0 auto;
 }
 }
 @media screen and (max-width: 767px){
@@ -80,14 +82,22 @@ export default {
   max-width: 767px; */
 }
 .totaldashboard{
-  margin-bottom: 30px;
+  margin-bottom: 7px;
   margin-right: 0;
+  max-width: 290px;
 }
 .line{
   width: 100%;
+  max-width: 290px;
+  margin-bottom: 7px;
 }
 .doughnut{
   width: 100%;
+  max-width: 290px;
+}
+.chartjs-render-monitor {
+  max-width: 230px;
+  margin: 0 auto;
 }
 }
 </style>

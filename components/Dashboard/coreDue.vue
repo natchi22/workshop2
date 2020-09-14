@@ -102,6 +102,7 @@ h2{
 @media screen and (max-width: 767px){
 .duedate{
   flex-direction: column;
+  margin: 14px;
 }
 
 }

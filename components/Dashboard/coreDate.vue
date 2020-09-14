@@ -140,7 +140,9 @@ export default {
 }
 .ant-tabs{
     padding: 0 24px;
+    /* padding: 14px; */
     margin-top: 14px;
+    /* margin: 0 auto; */
 }
 .ant-tabs .ant-tabs-bottom-content > .ant-tabs-tabpane{
     color: #192A3E;

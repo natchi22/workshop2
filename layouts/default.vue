@@ -4,7 +4,7 @@
     <div class="col-head">
       <coreHeader />
       <div class="main">
-        <nuxt />
+        <nuxt class="test" />
       </div>
     </div>
   </div>
@@ -22,7 +22,10 @@ export default {
 }
 </script>
 <style>
-
+.test{
+  /* position: relative; */
+  /* z-index: -1; */
+}
 div[data-v-6fc4d46b]{
     padding: 0 !important;
     margin: 36px;
@@ -38,6 +41,7 @@ div[data-v-6fc4d46b]{
   height: 100%;
   width: 100%;
   padding: 36px;
+  /* background-color: red; */
 }
 .asider{
     width: 256px;
@@ -50,11 +54,13 @@ div[data-v-6fc4d46b]{
 @media screen and (max-width: 1279px ) and (min-width: 768px ){
 .main {
   overflow-x: scroll;
+  padding: 4%;
 }
 }
 @media screen and (max-width: 767px){
 .main {
   overflow-x: scroll;
+  padding: 2%;
 }
 }
 </style>
